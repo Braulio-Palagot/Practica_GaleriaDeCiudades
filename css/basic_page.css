@@ -34,16 +34,6 @@ div.main_column {
     padding-bottom: 2em;
 }
 
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 1em;
-}
-
-ul.nav a {
-    text-decoration: none;
-}
-
 article {
     padding-left: 15%;
     background-repeat: no-repeat;
