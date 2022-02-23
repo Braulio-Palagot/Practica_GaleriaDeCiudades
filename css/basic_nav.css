@@ -6,21 +6,21 @@ ul.nav {
 
 ul.nav li a {
     display: block;
-    color: #000;
+    color: #292929;
+    font-weight: bold;
     padding: 0.5em 1.5em;
     text-decoration: none;
 }
 
 li a.active {
-  background-color: #4CAF50;
+  background-color: #FFA69E;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+  background-color: #FFA0AC;
 }
 
 a:hover {
-  font-style: italic;
+  font-size: 1.1em;
 }

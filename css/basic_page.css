@@ -1,8 +1,16 @@
+body {
+    font-family: cursive;
+    color: #292929;
+}
+
 header, footer {
     padding: 1em;
-    color: white;
-    background-color: black;
+    color: #F3EEC3;
+    background-color: #AA4465;
     text-align: center;
+}
+footer a {
+    color: #F3EEC3;
 }
 
 .header_back_img {
@@ -25,13 +33,14 @@ div.table_row {
 div.nav_column {
     display: table-cell;
     width: 20%;
+    background-color: #B0D0D3;
 }
 
 div.main_column {
     display: table-cell;
     width: 80%;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 0px 1em;
+    background-color: #D1E8EA;
 }
 
 article {
