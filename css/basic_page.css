@@ -1,0 +1,81 @@
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.header_back_img {
+    float: left;
+    height: 2em;
+    width: 2em;
+    margin: 1.5em;
+}
+
+div.table {
+    display: table;
+    width: 100%;
+}
+
+div.table_row {
+    display: table-row;
+    width: 100%;
+}
+
+div.nav_column {
+    display: table-cell;
+    width: 20%;
+}
+
+div.main_column {
+    display: table-cell;
+    width: 80%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+ul.nav a {
+    text-decoration: none;
+}
+
+article {
+    padding-left: 15%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.world_flag {
+    background-image: url("../img/mundo.png");
+    background-size: 11%;
+}
+
+.mexican_flag {
+    background-image: url("../img/mexico.png");
+    background-size: 11%;
+}
+
+.england_flag {
+    background-image: url("../img/inglaterra.jpg");
+    background-size: 11%;
+}
+
+.french_flag {
+    background-image: url("../img/francia.jpg");
+    background-size: 11%;
+}
+
+.japanese_flag {
+    background-image: url("../img/japon.jpg");
+    background-size: 11%;
+}
+
+.american_flag {
+    background-image: url("../img/usa.jpg");
+    background-size: 11%;
+}
