@@ -1,67 +1,46 @@
-body {
-    font-family: cursive;
+html {
+    padding: 0.25em;
+    background-color: #f1f1f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.03em;
     color: #292929;
 }
 
-header, footer {
-    padding: 1em;
-    color: #F3EEC3;
-    background-color: #AA4465;
-    text-align: center;
-}
-footer a {
-    color: #F3EEC3;
-}
-
-.header_back_img {
-    float: left;
-    height: 2em;
-    width: 2em;
-    margin: 1.5em;
+header {
+    background-color: #293E64;
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    overflow: hidden;
+    color: #85A8BF;
 }
 
-div.table {
-    display: table;
-    width: 100%;
-}
-
-div.table_row {
-    display: table-row;
-    width: 100%;
-}
-
-div.nav_column {
-    display: table-cell;
-    width: 20%;
-    background-color: #B0D0D3;
-}
-
-div.main_column {
-    display: table-cell;
-    width: 80%;
+section.main {
     padding: 0px 1em;
-    background-color: #D1E8EA;
+    height: 50%;
+}
+td.content {
+    padding-left: 1em;
+    vertical-align: top;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    padding-bottom: 2px;
+    margin-top: 1em;
+    border-top: 2px solid #293E64;
+    background-color: #85A8BF;
+}
+
+footer a {
+    color: #1b1b1b;    
 }
 
 article {
     padding-left: 15%;
     background-repeat: no-repeat;
     background-position: left center;
-}
-
-.world_flag {
-    background-image: url("../img/mundo.png");
-    background-size: 11%;
-}
-
-.mexican_flag {
-    background-image: url("../img/mexico.png");
-    background-size: 11%;
-}
-
-.england_flag {
-    background-image: url("../img/inglaterra.jpg");
-    background-size: 11%;
 }
 
 .french_flag {
