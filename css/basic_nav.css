@@ -10,6 +10,10 @@
   float: left;
 }
 
+.nav li:last-child {
+  float: right;
+}
+
 .nav a:hover {
   background-color: #3b4e70;
   color: white;
